@@ -1,0 +1,62 @@
+/* 基本的なリセットとフォント設定 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #333; /* ダークグレーの背景 */
+    color: white; /* 白色のテキスト */
+}
+
+/* アプリ全体のスタイリング */
+#app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* 評価セクションのスタイリング */
+#rating-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#rating-section p {
+    margin-bottom: 20px;
+}
+
+/* 評価ボタンのスタイル */
+.rating-btn {
+    background-color: #333; /* ダークグレーの背景、背景色と同じ */
+    color: #fff; /* ボタンのテキストを白色に */
+    border: 2px solid #fff; /* 白色の枠線 */
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.rating-btn:hover {
+    transform: scale(1.1);
+}
+
+/* 評価ログセクションのスタイリング */
+#log-section h2 {
+    margin-bottom: 20px;
+}
+
+#rating-log {
+    list-style-type: none;
+    padding: 0;
+}
+
+#rating-log li {
+    background-color: #444; /* やや明るめのグレー */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
