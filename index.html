@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ジンセイハビブン</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>ジンセイヲビブンスル</h1>
+        </header>
+        <main>
+            <section id="rating-section">
+                <h2>時間，ゴフン，ｷﾞｬﾌﾝ</h2>
+                <p>イマコノシュンカンヲシヌキデガンバレ</p>
+                <!-- 評価ボタン -->
+                <div>
+                    <button class="rating-btn" data-value="1">1</button>
+                    <button class="rating-btn" data-value="2">2</button>
+                    <button class="rating-btn" data-value="3">3</button>
+                    <button class="rating-btn" data-value="4">4</button>
+                    <button class="rating-btn" data-value="5">5</button>
+                </div>
+            </section>
+            <section id="chart-section">
+                <h2>ｸﾞﾌｯｯ，ｸﾞﾗﾌ</h2>
+                <canvas id="ratingChart"></canvas>
+            </section>
+            <section id="log-section">
+                <h2>ﾛｸﾞ</h2>
+                <ul id="rating-log">
+                    <!-- JavaScriptで評価ログをここに挿入 -->
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
